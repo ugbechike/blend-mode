@@ -1,0 +1,153 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        mix-blend-mode: exclusion;
+    }
+    
+    .container {
+        background-image: url(http://res.cloudinary.com/code-freak/image/upload/v1525381742/teca_t1wvhn.jpg), url(http://res.cloudinary.com/code-freak/image/upload/v1525635074/dog-back_z3yogo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-blend-mode: multiply;
+        height: 642px;
+        padding: 10px;
+    }
+    
+    .sign {
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        position: relative;
+        left: 940px;
+        top: 450px;
+        width: 400px;
+        font-size: 30px;
+        color: white;
+        mix-blend-mode: overlay;
+    }
+    
+    h1 {
+        color: white;
+        mix-blend-mode: overlay;
+        font-weight: bolder;
+        position: absolute;
+        z-index: 200;
+        left: 200px;
+        word-spacing: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    /*.container {
+    background-image: url(http://res.cloudinary.com/code-freak/image/upload/v1525381742/teca_t1wvhn.jpg), url(http://res.cloudinary.com/code-freak/image/upload/v1501878895/sample.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 980px 900px;
+    background-blend-mode: screen;
+    position: relative;
+    height: 580px;
+    width: 900px;
+    left: 200px;
+}*/
+    
+    .container__pin {
+        background-color: rgba(0, 128, 128);
+        border-radius: 50px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        z-index: 250;
+        top: 80px;
+        left: 750px;
+    }
+    /*.main-div {
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    background-color: red;
+    float: right;
+    -ms-transform: skewX(180deg);
+    -webkit-transform: skewX(180deg);
+    transform: skewX(180deg);
+}*/
+    /*.image {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    z-index: 30;
+    left: 350px;
+    position: relative;
+}*/
+    
+    #dog {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .container__main__div {
+        width: 300px;
+        height: 450px;
+        background-color: rgba(0, 128, 128);
+        -ms-transform: rotate(-20deg);
+        /* IE 9 */
+        -webkit-transform: rotate(-20deg);
+        /* Safari 3-8 */
+        transform: rotate(-20deg);
+        position: absolute;
+        left: 560px;
+        top: 100px;
+        z-index: 100;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    }
+    
+    .sub-div {
+        width: 300px;
+        height: 450px;
+        background-color: rgba(165, 42, 42);
+        -ms-transform: rotate(352deg);
+        /* IE 9 */
+        -webkit-transform: rotate(352deg);
+        /* Safari 3-8 */
+        transform: rotate(352deg);
+        position: absolute;
+        left: 450px;
+        top: 100px;
+    }
+    
+    #pen {
+        height: 300px;
+        width: 400px;
+        position: relative;
+        left: 807px;
+        -ms-transform: rotate(80deg);
+        -webkit-transform: rotate(80deg);
+        transform: rotate(80deg);
+        top: 85px;
+    }
+    
+    #pup {
+        width: 300px;
+        height: 300px;
+        transition: transform .2s;
+    }
+    
+    #pup:hover {
+        transform: scale(1.2);
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 1px;
+        position: relative;
+        bottom: 12px;
+        color: red;
+        mix-blend-mode: exclusion;
+    }
+    
+    h4 {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        bottom: 20px;
+        position: relative;
+        padding-left: 5px;
+    }
